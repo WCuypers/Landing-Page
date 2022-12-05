@@ -1,0 +1,85 @@
+:root {
+    --dark-background: #1F2937;
+    --button-color: #3882F6;
+    --quote-background: #E5E7EB;
+    --white-text-one: #F9FAF8;
+    --white-text-two: #E5E7EB;
+}
+
+* {
+    font-family: roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#headerContent {
+    background-color: var(--dark-background);
+    display: flex;
+}
+
+#headerLinks {
+    margin: 24px;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--white-text-one);
+}
+
+#headerLogo {
+    font-size: 24px;
+    color: var(--white-text-one)
+}
+
+#headerlinks {
+    font-weight: 18px;
+    color: var(--white-text-two);
+}
+
+#title {
+    background-color: var(--dark-background);
+}
+
+#titleText {
+    font-size: 18px;
+    color: var(--white-text-two);
+}
+
+#infoHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark-background);
+}
+
+button {
+    background-color: var(--button-color);
+}
+
+#quote {
+    background-color: var(--quote-background);
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--dark-background);
+}
+
+#callToAction {
+    background-color: var(--button-color);
+}
+
+footer {
+    background-color: var(--dark-background);
+    text-align: center;
+    color: var(--white-text-two);
+    font-weight: 300;
+}
