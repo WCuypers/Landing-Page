@@ -124,7 +124,7 @@ button {
     font-weight: bold;
     font-size: 18px;
     border-radius: 10px;
-    padding: 10px 48px;
+    padding: 7px 40px;
     border: none;
 }
 
@@ -157,6 +157,32 @@ blockquote {
 
 #callToAction {
     background-color: var(--button-color);
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+    width: 1040px;
+    margin: 48px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ctaText {
+    padding: 40px 0px;
+}
+
+h3 {
+    color: var(--white-text-one);
+    margin: 0;
+}
+
+.ctaText p {
+    color: var(--white-text-two);
+    font-weight: 300;
+    margin: 0;
+}
+
+#signUpButton {
+    border: 2px solid var(--white-text-one);
 }
 
 footer {
