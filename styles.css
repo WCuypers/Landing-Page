@@ -31,8 +31,15 @@ a {
     padding-left: 12px;
 }
 
+#headerLogo {
+    font-size: 24px;
+    color: var(--white-text-one)
+}
+
 #headerLinks {
     margin-left: auto;
+    font-weight: 18px;
+    color: var(--white-text-two);
 }
 
 h1 {
@@ -41,21 +48,14 @@ h1 {
     color: var(--white-text-one);
 }
 
-#headerLogo {
-    font-size: 24px;
-    color: var(--white-text-one)
-}
-
-#headerlinks {
-    font-weight: 18px;
-    color: var(--white-text-two);
-}
-
-#title {
+#title{
     background-color: var(--dark-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#titleText {
+#titleDescription {
     font-size: 18px;
     color: var(--white-text-two);
 }
