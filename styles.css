@@ -15,12 +15,18 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
+    margin: 0;
+}
+
+#header {
+    background-color: var(--dark-background);
 }
 
 #headerContent {
-    background-color: var(--dark-background);
     display: flex;
     align-items: center;
+    max-width: 1040px;
+    margin: 0 auto;
 }
 
 a {
@@ -50,9 +56,19 @@ h1 {
 
 #title{
     background-color: var(--dark-background);
+}
+
+#titleContent {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+#titleImage {
+    max-width: 520px;
+    max-height: auto;
 }
 
 #titleText {
@@ -72,13 +88,26 @@ h1 {
 }
 
 #infoBlocks {
+    text-align: center;
     display: flex;
     flex-direction: row;
 }
 
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    width: 160px;
+}
+
+.block p {
+    font-weight: 300;
+}
+
 .imgBlock {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 5px solid var(--button-color);
     border-radius: 10px;
 }
